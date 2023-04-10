@@ -28,7 +28,7 @@ function Signin() {
 
          <div className='button'>
           
-          <button className="w-100 btn btn-lg btn-primary" type="submit"  onClick={() => router.push('/page2')}><a href="http://localhost:3001/page2"style={{textDecoration:'none',color:'white'}}>Login</a></button>
+          <button className="w-100 btn btn-lg btn-primary" type="submit"  onClick={() => router.push('/page2')}><a style={{textDecoration:'none',color:'white'}} onClick={(e)=>{e.preventDefault()}}>Login</a></button>
           </div>
         </form>
       </main>
