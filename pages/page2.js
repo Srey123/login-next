@@ -10,7 +10,7 @@ const Verify = () =>{
     
   
     <>
-     <img src='group.jpg' width={1300} height={300}></img>
+     <center><img src='group.jpg' style={{width:"auto"}}></img></center>
         
      <center><main className={cx(styles["form-signin"],"text-center","mt-5")}>
        
@@ -21,7 +21,7 @@ const Verify = () =>{
           <center><b>Otp sent sucessfully!</b></center>
      <br></br>
 
-          <div className="form-floating">
+          <div className="form-floating" >
             <input type="email" className="form-control" id="floatingInput" placeholder="number"  maxLength={6}/>
             <label htmlFor="floatingInput"> Email Otp</label>
           </div>
